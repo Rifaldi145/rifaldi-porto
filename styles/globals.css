@@ -2,26 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .main-padding {
+    @apply px-4 md:px-10 lg:px-20 xl:px-32;
+  }
+  .secondary-padding {
+    @apply px-4 sm:px-4 md:px-6 2xl:px-40;
+  }
+  .awesome-link {
+    @apply relative tracking-wide text-slate-500 dark:text-slate-400 font-semibold xl:text-lg;
+  }
+  .awesome-link:hover {
+    @apply text-indigo-400 dark:text-slate-100;
+  }
+  .awesome-link::before {
+    @apply content-[''] bg-indigo-500/30 dark:bg-white/30 absolute bottom-1 left-0 w-full h-1 scale-x-0 transition transform ease-in-out origin-top duration-500 -z-10;
+  }
+  .awesome-link:hover::before {
+    @apply scale-x-100 origin-bottom;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.toggle-switch-input {
+  display: none;
+}
+
+.toggle-switch-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch-input:checked + .toggle-switch-label {
+  background-color: #00b6ff;
+}
+
+.toggle-switch-label::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.toggle-switch-input:checked + .toggle-switch-label::before {
+  transform: translateX(20px); /* Move the circle to the right when checked */
 }

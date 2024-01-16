@@ -1,20 +1,25 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 const config: Config = {
+  darkMode: ["class", '[data-theme="dark"]'],
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        heading: "#42446E",
+      },
+      fontFamily: {
+        // sans: ["var(--font-inter)", ...fontFamily.sans],
+        // serif: ["var(--font-inter)", ...fontFamily.serif],
+        mono: ["var(--font-fira-code)", ...fontFamily.mono],
       },
     },
   },
-  plugins: [],
-}
-export default config
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
+};
+export default config;

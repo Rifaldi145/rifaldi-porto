@@ -1,0 +1,15 @@
+[
+  {
+    "label": "About",
+    "link": "#about-section"
+  },
+
+  {
+    "label": "Education",
+    "link": "#portfolio-section"
+  },
+  {
+    "label": "Experience",
+    "link": "#experience-section"
+  }
+]
