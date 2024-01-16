@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Ini adalah website pribadi saya" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bettermuslim.app/" />
+        <meta property="og:url" content="https://rifaldi-porto.vercel.app/" />
         <meta property="og:title" content="Muhammad Rifaldi Judri" />
         <meta
           property="og:description"
@@ -29,11 +29,14 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="https://bettermuslim.app/Banner-SEO-01.png"
+          content="https://rifaldi-porto.vercel.app/logo-rifaldi.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://bettermuslim.app/" />
+        <meta
+          property="twitter:url"
+          content="https://rifaldi-porto.vercel.app/"
+        />
         <meta
           property="twitter:title"
           content="Ini adalah website pribadi saya"
@@ -42,7 +45,10 @@ const Home: NextPage = () => {
           property="twitter:description"
           content="Ini adalah website pribadi saya"
         />
-        <meta property="twitter:image" content="/images/logo-rifaldi.png" />
+        <meta
+          property="twitter:image"
+          content="https://rifaldi-porto.vercel.app/logo-rifaldi.png"
+        />
 
         <link rel="icon" href="/images/logo-rifaldi.png" />
       </Head>
