@@ -33,11 +33,11 @@ const educations = [
     name: "Kementerian Perencanaan Pembangunan Nasional Republik Indonesia/Bappenas",
     possition: "Full Stack Engineer",
   },
-  {
-    year: "Feb 2022 - Saat Ini",
-    name: "PT INAMART SUKSES JAYA",
-    possition: "Software Enginering",
-  },
+  // {
+  //   year: "Feb 2022 - Saat Ini",
+  //   name: "PT INAMART SUKSES JAYA",
+  //   possition: "Software Enginering",
+  // },
 ];
 
 const Experience: FC = () => {
