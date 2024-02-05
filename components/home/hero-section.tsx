@@ -70,11 +70,23 @@ const HeroSection: FC = () => {
             className="btn btn-md btn-warning dark:text-slate-50 rounded-md shadow-md tracking-wide" // Updated className to btn-sm for smaller button
           >
             <Link
-              href="#"
+              href="/CV_RIFALDI_2024.pdf"
               target="_blank"
               className="btn btn-m btn-secondary dark:text-slate-50 rounded-md shadow-md tracking-wide text-sm" // Added text-sm for smaller text
             >
               Liha CV Saya
+            </Link>
+          </button>
+
+          <button
+            className="btn btn-md btn-danger dark:text-slate-50 rounded-md shadow-md tracking-wide" // Updated className to btn-sm for smaller button
+          >
+            <Link
+              href="/portofolio.pdf"
+              target="_blank"
+              className="btn btn-m btn-secondary dark:text-slate-50 rounded-md shadow-md tracking-wide text-sm" // Added text-sm for smaller text
+            >
+              Portofolio
             </Link>
           </button>
         </div>
