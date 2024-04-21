@@ -70,7 +70,7 @@ const HeroSection: FC = () => {
             className="btn btn-md btn-warning dark:text-slate-50 rounded-md shadow-md tracking-wide" // Updated className to btn-sm for smaller button
           >
             <Link
-              href="/CV_RIFALDI_2024.pdf"
+              href="/Resume_CV_RIFALDI_2024.pdf"
               target="_blank"
               className="btn btn-m btn-secondary dark:text-slate-50 rounded-md shadow-md tracking-wide text-sm" // Added text-sm for smaller text
             >
