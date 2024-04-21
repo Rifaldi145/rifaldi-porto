@@ -74,7 +74,7 @@ const HeroSection: FC = () => {
               target="_blank"
               className="btn btn-m btn-secondary dark:text-slate-50 rounded-md shadow-md tracking-wide text-sm" // Added text-sm for smaller text
             >
-              Liha CV Saya
+              Liha CV
             </Link>
           </button>
 
