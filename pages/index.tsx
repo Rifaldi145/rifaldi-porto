@@ -61,6 +61,7 @@ const Home: NextPage = () => {
       <Education />
       {/* Experience */}
       <Experience />
+      <Portfolio />
       {/* 
       <Portfolio /> */}
     </MainLayout>

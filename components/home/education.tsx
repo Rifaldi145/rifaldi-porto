@@ -2,14 +2,14 @@ import React, { FC, Fragment } from "react";
 import SectionContainer from "../shared/section-container";
 
 const educations = [
-  {
-    year: "2005 - 2011",
-    name: "SDN Bojong Rangkas 04",
-  },
-  {
-    year: "2011 - 2014",
-    name: "SMPN 1 Ciampea",
-  },
+  // {
+  //   year: "2005 - 2011",
+  //   name: "SDN Bojong Rangkas 04",
+  // },
+  // {
+  //   year: "2011 - 2014",
+  //   name: "SMPN 1 Ciampea",
+  // },
   {
     year: "2014 - 2017",
     name: "SMK ADI SANGGORO",
@@ -21,8 +21,8 @@ const educations = [
     jurusan: "Sistem Informasi",
   },
   {
-    year: "2023 - Saat Ini",
-    name: "Universitas Bina Sarana Informatika (D3)",
+    year: "2023 - 2024",
+    name: "Universitas Bina Sarana Informatika (S1)",
     jurusan: "Sistem Informasi",
   },
 ];
@@ -61,6 +61,9 @@ const Education: FC = () => {
                     <div className="text-lg lg:text-base font-semibold text-heading dark:text-slate-200">
                       {education.name}
                     </div>
+                    <div className="text-lg lg:text-base font-semibold text-heading dark:text-slate-200">
+                      {education.jurusan}
+                    </div>
                   </div>
                   <hr className="bg-primary" />
                 </li>
@@ -87,6 +90,9 @@ const Education: FC = () => {
                     </time>
                     <div className="text-lg lg:text-base font-semibold text-heading dark:text-slate-200">
                       {education.name}
+                    </div>
+                    <div className="text-lg lg:text-base font-semibold text-heading dark:text-slate-200">
+                      {education.jurusan}
                     </div>
                   </div>
                   <hr className="bg-primary" />

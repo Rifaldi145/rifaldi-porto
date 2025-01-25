@@ -87,6 +87,36 @@ const stacks = [
     name: "Vue js",
     image: "/images/stacks/vuejs.png",
   },
+  {
+    id: 18,
+    name: "Code Igniter",
+    image: "/images/stacks/codeigniter-1.svg",
+  },
+  {
+    id: 19,
+    name: "Docker",
+    image: "/images/stacks/images.png",
+  },
+  {
+    id: 20,
+    name: "Node Js",
+    image: "/images/stacks/nodejs-logo-svgrepo-com.svg",
+  },
+  {
+    id: 21,
+    name: "Ionic",
+    image: "/images/stacks/Ionic_Logo.svg.png",
+  },
+  {
+    id: 22,
+    name: "Flutter",
+    image: "/images/stacks/flutter-logo-png_seeklogo-349577.png",
+  },
+  {
+    id: 23,
+    name: "Mysql",
+    image: "/images/stacks/MySQL.png",
+  },
 ];
 
 const TechStacks: FC = () => {

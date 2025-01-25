@@ -4,24 +4,14 @@ import SectionContainer from "../shared/section-container";
 
 const educations = [
   {
-    year: "Nov 2017 - Des 2017",
-    name: "Yuka Indonesia Media",
-    possition: "Web Programmer",
+    year: "Feb 2022 - Saat Ini",
+    name: "PT INAMART SUKSES JAYA",
+    possition: "Software Enginering",
   },
   {
-    year: "Des 2017 - Apr 2018",
-    name: "Angkasa Prima Indonesia",
-    possition: "Junior Programmer",
-  },
-  {
-    year: "Apr 2018 - Jun 2019",
-    name: "Dgeo.ID",
-    possition: "Junior Programmer",
-  },
-  {
-    year: "Jul 2019 - Nov 2019",
-    name: "YAYASAN TIRTA AMARTA PARIPURNA",
-    possition: "Web Programmer",
+    year: "Apr 2021 - Okt 2024",
+    name: "Kementerian Perencanaan Pembangunan Nasional Republik Indonesia/Bappenas",
+    possition: "Full Stack Engineer",
   },
   {
     year: "Des 2019 - Jan 2021",
@@ -29,15 +19,20 @@ const educations = [
     possition: "IT Support dan Programmer",
   },
   {
-    year: "Apr 2021 - Saat Ini",
-    name: "Kementerian Perencanaan Pembangunan Nasional Republik Indonesia/Bappenas",
-    possition: "Full Stack Engineer",
+    year: "Apr 2018 - Jun 2019",
+    name: "Dgeo.ID",
+    possition: "Junior Programmer",
   },
-  // {
-  //   year: "Feb 2022 - Saat Ini",
-  //   name: "PT INAMART SUKSES JAYA",
-  //   possition: "Software Enginering",
-  // },
+  {
+    year: "Des 2017 - Apr 2018",
+    name: "Angkasa Prima Indonesia",
+    possition: "Junior Programmer",
+  },
+  {
+    year: "Nov 2017 - Des 2017",
+    name: "Yuka Indonesia Media",
+    possition: "Web Programmer",
+  },
 ];
 
 const Experience: FC = () => {
